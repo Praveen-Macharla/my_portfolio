@@ -1,0 +1,64 @@
+*{
+    background-color: rgb(219, 219, 200);
+}
+#con1{
+     /* border: 2px solid red; */
+     padding-left: 200px;
+     padding-right: 200px;
+}
+#img1{
+    height: 20px;
+}
+p{
+    font-family: -apple-system,sans-serif;
+}
+table{
+    /* border: 2px solid rebeccapurple; */
+    width: 100%;
+}
+.td{
+    text-align: right;
+}
+.c{
+    text-align: justify;
+}
+@media (max-width:600px){
+    body{
+                h1{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 9px;
+                
+                }
+             }
+    #con1{
+         /* border: 2px solid red; */
+         padding-left: 10px;
+         padding-right: 10px;
+         font-size: 9px;
+    }
+    #img1{
+        height: 10px;
+    }
+    p{
+        font-family: -apple-system,sans-serif;
+    }
+    table{
+        /* border: 2px solid rebeccapurple; */
+        width: 100%;
+    }
+    .td{
+        text-align: right;
+    }
+    .c{
+        text-align: justify;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 14px;
+    }
+
+}
